@@ -12,7 +12,7 @@ export default {
   methods: {
     loguot() {
       localStorage.clear();
-      this.$router.push({ name: "SignUp" });
+      this.$router.push({ name: "HomePage" });
     },
   },
 };
