@@ -49,6 +49,8 @@ export default {
     let user = localStorage.getItem("user-info");
     if (user) {
       this.$router.push({ name: "HomePage" });
+    } else {
+      console.log("object");
     }
   },
 };

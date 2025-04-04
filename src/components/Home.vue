@@ -46,7 +46,6 @@ export default {
     },
     async loadData() {
       let user = localStorage.getItem("user-info");
-      this.name = JSON.parse(user).name;
       if (!user) {
         this.$router.push({ name: "SignUp" });
       }
