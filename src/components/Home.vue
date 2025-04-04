@@ -51,7 +51,7 @@ export default {
         this.$router.push({ name: "SignUp" });
       }
       let result = await axios.get("http://localhost:3000/restaurants");
-      if (result.status >= 200) {
+      if (result.status >= 200 || result.status <= 299) {
         this.restaurants = result.data;
       }
     },
