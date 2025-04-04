@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "Qasem@test.com",
+      "name": "Qasem priez",
+      "password": "011256"
+    },
+    {
+      "id": "4f67",
+      "email": "",
+      "name": "",
+      "password": ""
+    },
+    {
+      "id": "642f",
+      "email": "osams",
+      "name": "osama",
+      "password": "123"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "كريزي كارت",
+      "address": "الشعلان",
+      "contact": "01269",
+      "id": "2"
+    },
+    {
+      "name": "فروج القصور",
+      "address": "ركن الدين",
+      "contact": "0116887",
+      "id": "00cb"
+    },
+    {
+      "name": "الوجبة الشهية",
+      "address": "الميدان",
+      "contact": "011258",
+      "id": "494e"
+    },
+    {
+      "id": "0092",
+      "name": "الشام",
+      "address": "مشروع دمر",
+      "contact": "0112698"
+    }
+  ]
+}
